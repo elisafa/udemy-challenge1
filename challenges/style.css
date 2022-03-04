@@ -13,6 +13,7 @@ body{
   width:825px;
   margin: 0 auto;
   margin-top: 60px;
+  position: relative;
 }
 
 h2{
@@ -44,6 +45,10 @@ a:link{
 
 a:hover{
   text-decoration: none;
+}
+article a{
+  margin-top: 10px;;
+  display: block;
 }
 
 h3{
@@ -80,4 +85,43 @@ button:hover{
 ul{
   margin-left: 20px;
   padding-left: 0;
+}
+
+.position{
+  display: inline;
+  background-color:red;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  padding: 7px 15px;
+  letter-spacing: 4px;
+}
+
+.inline{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+  width:30px;
+  height: 30px;
+}
+
+.color-black{
+  background-color: black;
+}
+.color-blue{
+  background-color: blue;
+}
+.color-red{
+  background-color: red;
+}
+.color-yellow{
+  background-color: yellow;
+}
+.color-green{
+  background-color: green;
+}
+.color-brown{
+  background-color: brown;
 }
