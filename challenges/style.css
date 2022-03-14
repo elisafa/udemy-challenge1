@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
   border: 5px solid black;
   width:825px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 20px;
   position: relative;
 }
 
@@ -25,12 +26,15 @@ h2{
 }
 
 .price{
+  float: left;
+  margin-right: 40px;
   font-size: 22px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 0px;
 }
 
 .shipping{
+  margin-top: 25px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 12px;
@@ -55,7 +59,7 @@ h3{
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 li{
@@ -101,7 +105,7 @@ ul{
 
 .inline{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
   margin-top: 30px;
   width:30px;
   height: 30px;
@@ -124,4 +128,18 @@ ul{
 }
 .color-brown{
   background-color: brown;
+}
+
+.imagem{
+  float: left;
+  margin-right: 30px;
+}
+.product-info{
+  float: left;
+  width: 243px;
+  margin-right: 30px;
+}
+.details{
+  float: left;
+  width: 243px;
 }
